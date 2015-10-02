@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="customer" class="Customer"></bean>
+	<bean id="customer1" class="Customer"></bean>
+	<bean id="customer2" class="Customer"></bean>
+	<bean id="customer3" class="Customer"></bean>
+	<bean id="pizza" class="Pizza"></bean>
+	<bean id="dominos" class="Dominos" factory-method="bake"></bean>
+</beans>
