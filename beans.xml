@@ -6,7 +6,6 @@
 
 	<bean id="customer" class="Customer"></bean>
 	<bean id="customer1" class="Customer"></bean>
-	<bean id="customer2" class="Customer"></bean>
 	<bean id="customer3" class="Customer"></bean>
 	<bean id="pizza" class="Pizza"></bean>
 	<bean id="dominos" class="Dominos" factory-method="bake"></bean>

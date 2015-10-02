@@ -6,7 +6,7 @@ public class App {
 		System.out.println("go go go!");
 	 	ApplicationContext context=new FileSystemXmlApplicationContext("beans.xml");
 	    
-	Customer a=(Customer) context.getBean("customer1");
+	    Customer a=(Customer) context.getBean("customer1");
 	
 }
 }
